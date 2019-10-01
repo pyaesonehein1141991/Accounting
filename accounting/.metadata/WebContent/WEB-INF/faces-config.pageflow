@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14483757432580" configfile="/accounting/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="1906" id="pf14483760409842" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14483760409843 pf14483761642208 pf14487244920350 pf14487244920351 pf14487244920352 pf14487244920354 pf14487244920355 pf14508592199260 pf145085923109022 pf14861117226630" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="338" y="178" id="pf14483760409844" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14483760409843" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/home.xhtml" x="338" y="562" id="pf14483761642209" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf14483761642208" path="/ui/system/home.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/roleDialog.xhtml" x="338" y="946" id="pf14487244920366" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf14487244920350" path="/dialog/roleDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/branchDialog.xhtml" x="338" y="1330" id="pf14487244920367" referenceLink="//@navigationRule.0/@navigationCase.3/@toViewId|" inlinks="pf14487244920351" path="/dialog/branchDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/departmentDialog.xhtml" x="338" y="1714" id="pf14487244920368" referenceLink="//@navigationRule.0/@navigationCase.4/@toViewId|" inlinks="pf14487244920352" path="/dialog/departmentDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/ccoaAccountDialog.xhtml" x="122" y="3826" id="pf14487244920369" referenceLink="//@navigationRule.0/@navigationCase.5/@toViewId|" path="/dialog/ccoaAccountDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/voucherNoDialog.xhtml" x="338" y="2098" id="pf144872449203610" referenceLink="//@navigationRule.0/@navigationCase.6/@toViewId|" inlinks="pf14487244920354" path="/dialog/voucherNoDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/coaDialog.xhtml" x="338" y="2482" id="pf144872449203611" referenceLink="//@navigationRule.0/@navigationCase.7/@toViewId|" inlinks="pf14487244920355" path="/dialog/coaDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/ccoaAcountDialog.xhtml" x="338" y="2866" id="pf14508592199262" referenceLink="//@navigationRule.0/@navigationCase.5/@toViewId|" inlinks="pf14508592199260" path="/dialog/ccoaAcountDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/*" x="122" y="5746" id="pf14508592199263" referenceLink="//@navigationRule.1/@fromViewId|" outlinks="pf14508592199264 pf14508592199265 pf14508592199266 pf14508592199267 pf14508592199268 pf14508592199269 pf145085921992610 pf145085921992611 pf145085921992612 pf14861117226641" path="/ui/*"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/rateMonthlyCurrency.xhtml" x="338" y="4018" id="pf145085921992613" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" inlinks="pf14508592199264" path="/ui/system/rateMonthlyCurrency.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/manageOpeningBalance.xhtml" x="338" y="4402" id="pf145085921992614" referenceLink="//@navigationRule.1/@navigationCase.1/@toViewId|" inlinks="pf14508592199265" path="/ui/system/manageOpeningBalance.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/manageYBudget.xhtml" x="338" y="4786" id="pf145085921992615" referenceLink="//@navigationRule.1/@navigationCase.2/@toViewId|" inlinks="pf14508592199266" path="/ui/system/manageYBudget.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/manageMBudget.xhtml" x="338" y="5170" id="pf145085921992616" referenceLink="//@navigationRule.1/@navigationCase.3/@toViewId|" inlinks="pf14508592199267" path="/ui/system/manageMBudget.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/manageMHCBudget.xhtml" x="338" y="5554" id="pf145085921992617" referenceLink="//@navigationRule.1/@navigationCase.4/@toViewId|" inlinks="pf14508592199268" path="/ui/system/manageMHCBudget.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/manage/transaction/manageCreditVoucher.xhtml" x="338" y="5938" id="pf145085921992618" referenceLink="//@navigationRule.1/@navigationCase.5/@toViewId|" inlinks="pf14508592199269" path="/ui/manage/transaction/manageCreditVoucher.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/manage/transaction/manageDebitVoucher.xhtml" x="338" y="6322" id="pf145085921992619" referenceLink="//@navigationRule.1/@navigationCase.6/@toViewId|" inlinks="pf145085921992610" path="/ui/manage/transaction/manageDebitVoucher.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/manage/transaction/manageJournalVoucher.xhtml" x="338" y="6706" id="pf145085921992620" referenceLink="//@navigationRule.1/@navigationCase.7/@toViewId|" inlinks="pf145085921992611" path="/ui/manage/transaction/manageJournalVoucher.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/system/manageUser.xhtml" x="338" y="7090" id="pf145085921992621" referenceLink="//@navigationRule.1/@navigationCase.8/@toViewId|" inlinks="pf145085921992612" path="/ui/system/manageUser.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/yearlyPostingCoaDialog.xhtml" x="338" y="3250" id="pf145085923109123" referenceLink="//@navigationRule.0/@navigationCase.9/@toViewId|" inlinks="pf145085923109022" path="/dialog/yearlyPostingCoaDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="dialog/formatFileCoaDialog.xhtml" x="338" y="3634" id="pf14861117226642" referenceLink="//@navigationRule.0/@navigationCase.8/@toViewId|" inlinks="pf14861117226630" path="/dialog/formatFileCoaDialog.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="ui/manage/report/incomeAndExpenditure.xhtml" x="338" y="7474" id="pf14861117226653" referenceLink="//@navigationRule.1/@navigationCase.9/@toViewId|" inlinks="pf14861117226641" path="/ui/manage/report/incomeAndExpenditure.xhtml"/>
+  <links id="pf14483760409843" target="pf14483760409844" source="pf14483760409842" outcome="login" redirect="true"/>
+  <links id="pf14483761642208" target="pf14483761642209" source="pf14483760409842" outcome="home" redirect="true"/>
+  <links id="pf14487244920350" target="pf14487244920366" source="pf14483760409842" outcome="roleDialog"/>
+  <links id="pf14487244920351" target="pf14487244920367" source="pf14483760409842" outcome="branchDialog"/>
+  <links id="pf14487244920352" target="pf14487244920368" source="pf14483760409842" outcome="departmentDialog"/>
+  <links id="pf14487244920354" target="pf144872449203610" source="pf14483760409842" outcome="voucherNoDialog"/>
+  <links id="pf14487244920355" target="pf144872449203611" source="pf14483760409842" outcome="coaDialog"/>
+  <links id="pf14508592199260" target="pf14508592199262" source="pf14483760409842" outcome="ccoaAcountDialog"/>
+  <links id="pf14508592199264" target="pf145085921992613" source="pf14508592199263" outcome="rateMonthlyCurrency" redirect="true"/>
+  <links id="pf14508592199265" target="pf145085921992614" source="pf14508592199263" outcome="manageOpeningBalance" redirect="true"/>
+  <links id="pf14508592199266" target="pf145085921992615" source="pf14508592199263" outcome="yearlyBudget" redirect="true"/>
+  <links id="pf14508592199267" target="pf145085921992616" source="pf14508592199263" outcome="monthlyBudget" redirect="true"/>
+  <links id="pf14508592199268" target="pf145085921992617" source="pf14508592199263" outcome="monthlyBudgetHomeCur" redirect="true"/>
+  <links id="pf14508592199269" target="pf145085921992618" source="pf14508592199263" outcome="manageCreditVoucher" redirect="true"/>
+  <links id="pf145085921992610" target="pf145085921992619" source="pf14508592199263" outcome="manageDebitVoucher" redirect="true"/>
+  <links id="pf145085921992611" target="pf145085921992620" source="pf14508592199263" outcome="manageJournalVoucher" redirect="true"/>
+  <links id="pf145085921992612" target="pf145085921992621" source="pf14508592199263" outcome="manageUser" redirect="true"/>
+  <links id="pf145085923109022" target="pf145085923109123" source="pf14483760409842" outcome="yearlyPostingCoaDialog"/>
+  <links id="pf14861117226630" target="pf14861117226642" source="pf14483760409842" outcome="formatFileCoaDialog"/>
+  <links id="pf14861117226641" target="pf14861117226653" source="pf14508592199263" outcome="incomeAndExpenditure" redirect="true"/>
+</pageflow:Pageflow>

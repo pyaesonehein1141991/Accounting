@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="web"/>
+	<classpathentry kind="src" path="report-template"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-codec-1.12.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/bcprov-jdk15on-1.52.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/castor-core-1.4.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/castor-xml-1.4.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/itext-2.1.7.js6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson-annotations-2.9.8.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson-core-2.9.8.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson-databind-2.9.8.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jasperreports-6.9.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/JBoss EAP 7.0 Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa;jst.jsf;jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_202">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
